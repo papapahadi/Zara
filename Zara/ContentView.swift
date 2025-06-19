@@ -48,6 +48,7 @@ struct ContentView: View {
                             Text("About Us")
                         }
                     }
+                    }
                     .font(.custom("Didot", size: 20))
                     .foregroundStyle(.black)
                     .padding(.horizontal)
@@ -59,7 +60,7 @@ struct ContentView: View {
             .ignoresSafeArea()
         }
     }
-}
+
 
 #Preview {
     ContentView()
