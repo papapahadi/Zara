@@ -28,35 +28,6 @@ struct MenView: View {
         
     }
     
-    
-    var headerView: some View {
-        VStack(spacing: 0) {
-            //image aayegi
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 20) {
-                    Text("Shirts")
-                        .modifier(headerStyle())
-                
-                    Text("Pants")
-                        .modifier(headerStyle())
-                
-                    Text("Jackets")
-                        .modifier(headerStyle())
-                       
-                    Text("Shoes")
-                        .modifier(headerStyle())
-                }
-                .padding(.horizontal)
-            }
-            .padding(.vertical, 10)
-            
-            Divider()
-        }
-        .background(Color.white)
-    }
-    
- 
 }
 
 struct Men_Previews: PreviewProvider {

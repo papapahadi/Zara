@@ -14,6 +14,11 @@
 		BB4C88CF2CA04ECA00AF4A1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C88CE2CA04ECA00AF4A1F /* ContentView.swift */; };
 		BB4C88D52CA05D0200AF4A1F /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C88D42CA05D0200AF4A1F /* AboutUsView.swift */; };
 		BB4C88D72CA0886700AF4A1F /* LadiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C88D62CA0886700AF4A1F /* LadiesView.swift */; };
+		BB8E00E52E060008009DCF90 /* MenHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E00E42E060008009DCF90 /* MenHeaderView.swift */; };
+		BB8E00E72E060106009DCF90 /* HeaderViewElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E00E62E060106009DCF90 /* HeaderViewElements.swift */; };
+		BB8E00E92E06061E009DCF90 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E00E82E06061E009DCF90 /* HomePageView.swift */; };
+		BB8E00EB2E0608B1009DCF90 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E00EA2E0608B1009DCF90 /* CartView.swift */; };
+		BB8E00ED2E060C14009DCF90 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8E00EC2E060C14009DCF90 /* AccountView.swift */; };
 		BBC0447C2E046B0E00753160 /* HeaderStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0447B2E046B0E00753160 /* HeaderStyleModifier.swift */; };
 		BBC0447E2E046BE300753160 /* SummerSaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0447D2E046BE300753160 /* SummerSaleView.swift */; };
 		BBC044802E046C4000753160 /* FashionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0447F2E046C4000753160 /* FashionItem.swift */; };
@@ -29,6 +34,11 @@
 		BB4C88CE2CA04ECA00AF4A1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB4C88D42CA05D0200AF4A1F /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
 		BB4C88D62CA0886700AF4A1F /* LadiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadiesView.swift; sourceTree = "<group>"; };
+		BB8E00E42E060008009DCF90 /* MenHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenHeaderView.swift; sourceTree = "<group>"; };
+		BB8E00E62E060106009DCF90 /* HeaderViewElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewElements.swift; sourceTree = "<group>"; };
+		BB8E00E82E06061E009DCF90 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		BB8E00EA2E0608B1009DCF90 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		BB8E00EC2E060C14009DCF90 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		BBC0447B2E046B0E00753160 /* HeaderStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderStyleModifier.swift; sourceTree = "<group>"; };
 		BBC0447D2E046BE300753160 /* SummerSaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerSaleView.swift; sourceTree = "<group>"; };
 		BBC0447F2E046C4000753160 /* FashionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionItem.swift; sourceTree = "<group>"; };
@@ -67,6 +77,8 @@
 			children = (
 				BB4C882A2C9826C300AF4A1F /* Zara.swift */,
 				BB4C882C2C9826C300AF4A1F /* MenView.swift */,
+				BB8E00E42E060008009DCF90 /* MenHeaderView.swift */,
+				BB8E00E62E060106009DCF90 /* HeaderViewElements.swift */,
 				BBC044812E046C5B00753160 /* FashionItemView.swift */,
 				BBC0447F2E046C4000753160 /* FashionItem.swift */,
 				BBC0447D2E046BE300753160 /* SummerSaleView.swift */,
@@ -74,6 +86,9 @@
 				BB4C88D62CA0886700AF4A1F /* LadiesView.swift */,
 				BB4C88D42CA05D0200AF4A1F /* AboutUsView.swift */,
 				BB4C88CE2CA04ECA00AF4A1F /* ContentView.swift */,
+				BB8E00EA2E0608B1009DCF90 /* CartView.swift */,
+				BB8E00EC2E060C14009DCF90 /* AccountView.swift */,
+				BB8E00E82E06061E009DCF90 /* HomePageView.swift */,
 				BB4C882E2C9826C500AF4A1F /* Assets.xcassets */,
 				BB4C88302C9826C500AF4A1F /* Preview Content */,
 			);
@@ -160,12 +175,17 @@
 			files = (
 				BB4C882D2C9826C300AF4A1F /* MenView.swift in Sources */,
 				BB4C88CF2CA04ECA00AF4A1F /* ContentView.swift in Sources */,
+				BB8E00EB2E0608B1009DCF90 /* CartView.swift in Sources */,
 				BB4C88D72CA0886700AF4A1F /* LadiesView.swift in Sources */,
+				BB8E00ED2E060C14009DCF90 /* AccountView.swift in Sources */,
 				BBC044802E046C4000753160 /* FashionItem.swift in Sources */,
 				BBC0447C2E046B0E00753160 /* HeaderStyleModifier.swift in Sources */,
 				BB4C882B2C9826C300AF4A1F /* Zara.swift in Sources */,
+				BB8E00E52E060008009DCF90 /* MenHeaderView.swift in Sources */,
 				BB4C88D52CA05D0200AF4A1F /* AboutUsView.swift in Sources */,
 				BBC044822E046C5B00753160 /* FashionItemView.swift in Sources */,
+				BB8E00E72E060106009DCF90 /* HeaderViewElements.swift in Sources */,
+				BB8E00E92E06061E009DCF90 /* HomePageView.swift in Sources */,
 				BBC0447E2E046BE300753160 /* SummerSaleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
